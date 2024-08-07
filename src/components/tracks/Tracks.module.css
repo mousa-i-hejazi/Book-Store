@@ -1,0 +1,124 @@
+.track {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.scontent {
+    margin-top: 200px;
+}
+
+.h1 {
+    color: #000;
+    font-weight: 600;
+}
+
+.p {
+    color: #8A8A8A;
+    margin-bottom: 50px;
+}
+
+.card {
+    border: 0;
+    border-radius: 20px;
+}
+
+.cardimg {
+    margin: 20px;
+    width: 90%;
+}
+
+.star {
+    width: 20%;
+    height: 15px;
+}
+
+.pstar {
+    color: #ACACAC;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.cardh5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cardp {
+    color: #FF7426;
+    font-weight: 600;
+}
+
+.line {
+    width: 100%;
+}
+
+.times {
+    width: 80%;
+}
+
+.button {
+    color: #fff;
+    background-color: #FF7426;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.light {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 10%;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 10%;
+}
+
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {
+    .button{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .scontent {
+        margin-top: 100px;
+    }
+    .cardimg{
+        padding-left: 20px;
+    }
+    .card{
+        margin-bottom: 100px;
+    }
+    .button{
+        margin-left: 250px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .scontent {
+        margin-top: 1000px;
+    }
+    .button{
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .scontent {
+        margin-top: 1500px;
+    }
+    .button{
+        margin-left: 120px;
+    }
+}

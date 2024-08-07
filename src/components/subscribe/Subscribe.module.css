@@ -1,0 +1,60 @@
+.sec{
+    background-image: url(photo_2023-09-23_19-49-05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    border-radius: 20px;
+
+}
+.h1{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
+.p{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.input{
+    position: relative;
+}
+.inp{
+    border: 0;
+    color: #ACACAC;
+    border-radius: 50px;
+    padding: 15px 200px 15px 30px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+.buttoninp{
+    color: #fff;
+    background-color: #FF7426;
+    position: absolute;
+    top: 5px;
+    left: 625px;
+    border-radius: 50px;
+    padding: 10px 50px;
+}
+@media (max-width: 1399.98px) {}
+@media (max-width: 1199.98px) {
+    .buttoninp{
+        left: 530px;
+    }
+}
+@media (max-width: 991.98px) {
+    .buttoninp{
+        left: 410px;
+    }
+}
+@media (max-width: 767.98px) {
+    .buttoninp{
+        left: 320px;
+    }
+}
+@media (max-width: 575.98px) {
+    .buttoninp{
+        left: 295px;
+    }
+}

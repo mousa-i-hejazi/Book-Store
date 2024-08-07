@@ -1,0 +1,102 @@
+.track{
+    position: relative;
+    margin-bottom: 80px;
+}
+.scontent{
+    margin-top: 80px;
+}
+.h1{
+    color: #000;
+    font-weight: 600;
+}
+.p{
+    color: #8A8A8A;
+    margin-bottom: 50px;
+}
+.card{
+    border: 0;
+    border-radius: 20px;
+}
+.cardimg{
+    margin: 20px;
+    margin-bottom: 0;
+    width: 90%;
+}
+
+.cardh5{
+    font-size: 18px;
+    font-weight: 500;
+}
+.pstar{
+    color: #ACACAC;
+    font-weight: 500;
+    font-size: 14px
+}
+.starp{
+    color: #ACACAC;
+    font-weight: 400;
+    font-size: 15px;
+}
+.cardp{
+    color: #FF7426;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.link{
+    margin-left: 20px;
+}
+.arrow{
+    position: absolute;
+    top: -100px;
+    left: 50px;
+    width: 10%;
+}
+.planet{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 8%;
+}
+.ellipse1{    
+    position: absolute;
+    top: -500px;
+    right: 0;
+}
+.ellipse2{ 
+    position: absolute;   
+    top: -600px;
+    left: 0;
+}
+@media (max-width: 1399.98px) {}
+@media (max-width: 1199.98px) {
+    .starp{
+        font-size: 12px;
+    }
+}
+@media (max-width: 991.98px) {
+    .card{
+        margin-bottom: 100px;
+    }
+    .cardimg{
+        padding-left: 20px;
+    }
+    .cardp{
+        margin-bottom: 20px;
+    }
+    .starp{
+        font-size: 22px;
+        width: 80%;
+    }
+}
+@media (max-width: 767.98px) {
+    .starp{
+        font-size: 18px;
+        width: 80%;
+    }
+}
+@media (max-width: 575.98px) {
+    .starp{
+        font-size: 16px;
+        width: 80%;
+    }
+}
